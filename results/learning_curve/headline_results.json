@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "comparison": [
+    {
+      "training_recorded_groups": 8,
+      "mean_training_spectra": 166.88,
+      "no_sa_accuracy_percent": 77.03416149068323,
+      "sa_accuracy_percent": 77.92339544513457,
+      "accuracy_sa_gain_pp": 0.8892339544513451,
+      "no_sa_macro_f1_percent": 75.05650151754526,
+      "sa_macro_f1_percent": 75.88798788335227,
+      "macro_f1_sa_gain_pp": 0.8314863658070104
+    },
+    {
+      "training_recorded_groups": 16,
+      "mean_training_spectra": 333.2,
+      "no_sa_accuracy_percent": 86.46687370600415,
+      "sa_accuracy_percent": 87.2639751552795,
+      "accuracy_sa_gain_pp": 0.7971014492753636,
+      "no_sa_macro_f1_percent": 85.41698232005454,
+      "sa_macro_f1_percent": 86.2557981723403,
+      "macro_f1_sa_gain_pp": 0.8388158522857658
+    },
+    {
+      "training_recorded_groups": 24,
+      "mean_training_spectra": 499.23999999999995,
+      "no_sa_accuracy_percent": 89.75465838509317,
+      "sa_accuracy_percent": 90.05072463768116,
+      "accuracy_sa_gain_pp": 0.296066252587992,
+      "no_sa_macro_f1_percent": 88.97397684203182,
+      "sa_macro_f1_percent": 89.27733686122419,
+      "macro_f1_sa_gain_pp": 0.30336001919237354
+    },
+    {
+      "training_recorded_groups": 32,
+      "mean_training_spectra": 666.4,
+      "no_sa_accuracy_percent": 91.34057971014492,
+      "sa_accuracy_percent": 92.06521739130436,
+      "accuracy_sa_gain_pp": 0.7246376811594213,
+      "no_sa_macro_f1_percent": 90.6105871296217,
+      "sa_macro_f1_percent": 91.46372428995274,
+      "macro_f1_sa_gain_pp": 0.8531371603310124
+    }
+  ],
+  "full_budget_prediction_reproduction_exact": true,
+  "training_seconds": 4057.2690234184265,
+  "uncertainty": "Descriptive SD across five overlapping CV folds, not independent-cohort confidence intervals.",
+  "validation_type": "Retrospective grouped training-size sensitivity; not prospective validation."
+}

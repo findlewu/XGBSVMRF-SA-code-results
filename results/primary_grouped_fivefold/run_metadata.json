@@ -1,0 +1,16 @@
+{
+  "dataset": "833 spectra from 40 complete pots; grades 0-5",
+  "outer_validation": "one five-fold StratifiedGroupKFold by pot",
+  "outer_seed": 20260929,
+  "inner_stacking": "three-fold StratifiedGroupKFold by pot",
+  "preprocessing": "Savitzky-Golay smoothing followed by second derivative",
+  "resampling": "none",
+  "class_weight": null,
+  "grade01_threshold": null,
+  "meta_learner": "standardized logistic regression, C=0.3",
+  "SA_centres": "group-balanced grade centres fitted within each training partition",
+  "xgboost_device": "cuda",
+  "xgboost_version": "3.1.2",
+  "xgboost_cuda_build": true,
+  "note": "Mean and SD describe variation across five pot-grouped folds, not independent external cohorts."
+}

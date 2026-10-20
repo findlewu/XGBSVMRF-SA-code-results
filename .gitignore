@@ -1,0 +1,16 @@
+# Local Python environments and generated run outputs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+work/
+data/
+**/all_out_of_fold_predictions.csv
+**/SA_heldout_example_radians.csv
+**/diagram_data_provenance.json
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
